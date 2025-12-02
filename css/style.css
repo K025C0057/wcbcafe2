@@ -212,13 +212,16 @@ img {
 
 /*デスクトップ版
 -----------------------------------*/
-@madia (min-width: 800px) {
+@media (min-width: 800px) {
     /* 見出し*/
     .page-title {
         font-size: 5rem;
     }
     .heading-large {
         font-size: 4rem;
+    }
+    .post-title{
+        font-size: 2rem;
     }
 
     /* ヘッダー*/
@@ -231,12 +234,23 @@ img {
         font-size: 2rem;
     }
 
+    /*ヘッダーカバー画像*/
+    .sub-cover {
+        height: 400px;
+        margin-bottom: 6rem;
+    }
+
     /* HOME*/
     .cover-home {
         background-image:url(../images/cover-home-l.webp);
     }
     .about {
         margin: 4rem auto 0;
+    }
+
+    /* NEWS */
+    .page-footer {
+        background-image: url(../images/cover-news-l.webp);
     }
 
     /* フッター*/
