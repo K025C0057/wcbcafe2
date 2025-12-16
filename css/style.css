@@ -83,6 +83,8 @@ img {
     color: #0bd;
 }
 
+/*ヘッドカバー画像
+-------------------------------------- */
 .cover {
     background-size: cover;
     background-position: center bottom;
@@ -113,7 +115,7 @@ img {
 /* NEWS
 ----------------------------*/
 .cover-news {
-    background-image: url(../images/cover-news-l.webp);
+    background-image: url(../images/cover-news-s.webp);
 }
 
 /*記事部分*/
@@ -128,6 +130,10 @@ img {
     display: flex;
     gap: 1rem;
     margin-bottom: 2rem;
+}
+
+.post-date {
+    font-size: .875rem;
 }
 
 .post-cat {
